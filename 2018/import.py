@@ -1,5 +1,0 @@
-file = open("dc.in", "r")
-temp = file.read().splitlines()
-#settings = file.readline ().split(" ")
-print (temp)
-file.close ()
