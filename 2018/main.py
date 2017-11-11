@@ -11,4 +11,6 @@ except IOError as e:
     file = open("filename.txt", "w")
     file.write (filename)
 
-print (reader.split (filename))
+list = reader.split (filename)
+
+print (list)
