@@ -7,10 +7,10 @@ try:
     file.close()
 except IOError as e:
     print ("No input file existing!")
-    filename = input ("Name of inputfile: ")
+    inputfile = input ("Name of inputfile: ")
     file = open("filename.txt", "w")
-    file.write (filename)
+    file.write (inputfile)
 
-list = reader.split (filename)
+list = reader.split (inputfile)
 
 print (list)
