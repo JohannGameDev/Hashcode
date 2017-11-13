@@ -13,4 +13,4 @@ except IOError as e:
 
 list = reader.split (inputfile)
 
-print (list)
+print (list [0])
